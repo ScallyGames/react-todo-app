@@ -5,7 +5,15 @@ const router = express.Router();
 
 router
     .route('/')
-    .get(todoController.getAll);
+    .get(todoController.getAll)
+    .post(todoController.add)
+    ;
+
+router
+    .route('/:todoId')
+    .get(todoController.getOne)
+    .delete(todoController.remove)
+    ;
 
 
 module.exports = router;
