@@ -41,7 +41,7 @@ const remove = (req, res) =>
 {
     const id = parseInt(req.params.todoId);
 
-    if(!id) throw httpStatus.BAD_REQUEST;
+    if(isNaN(id)) throw httpStatus.BAD_REQUEST;
 
     todoService.removeById(id);
 
