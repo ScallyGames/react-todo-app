@@ -19,7 +19,7 @@ export class TodoList extends React.Component {
     }
 
     loadData = () => {
-        fetch("http://localhost:3000/api/todos")
+        fetch("http://localhost:3001/api/todos")
         .then(res => res.json())
         .then(result => result.map(x => new Todo(x.id, x.title, x.description, x.done)))
         .then(

@@ -3,7 +3,7 @@ import * as React from 'react';
 export class TodoListItem extends React.Component {
 
     delete = (id) => {
-        fetch(`http://localhost:3000/api/todos/${id}`, {
+        fetch(`http://localhost:3001/api/todos/${id}`, {
             "method": "DELETE",
         })
             .then(response => {

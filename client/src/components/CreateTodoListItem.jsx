@@ -14,7 +14,7 @@ export class CreateTodoListItem extends React.Component {
     }
 
     create = (event) => {
-        fetch(`http://localhost:3000/api/todos`, {
+        fetch(`http://localhost:3001/api/todos`, {
             'method': 'POST',
             'body': JSON.stringify(new NewTodo(this.state.title, this.state.description)),
             'headers': {
