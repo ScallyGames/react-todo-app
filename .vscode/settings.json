@@ -1,0 +1,15 @@
+{
+    "javascript.format.semicolons": "insert",
+    "typescript.format.semicolons": "insert",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/node_modules": true
+    },
+    "workbench.tree.indent": 24,
+    "workbench.tree.renderIndentGuides": "always"
+}
