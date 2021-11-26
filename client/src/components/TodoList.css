@@ -1,29 +1,6 @@
-thead
+.todo-list
 {
-    background-color: lightslategray;
-}
-
-td:not(:last-child)
-{
-    min-width: 240px;
-}
-
-tr:nth-child(even)
-{
-    background-color: rgb(255, 245, 235);
-}
-
-form
-{
-    margin-top: 24px;
-}
-
-label
-{
-    margin-right: 24px;
-}
-
-label > input
-{
-    margin-left: 12px;
+    width: 40%;
+    height: 40%;
+    min-width: 920px;
 }
